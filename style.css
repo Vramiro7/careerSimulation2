@@ -13,6 +13,11 @@ h1{
 	border-color: black;
 }
 
+h2{
+	text-align: center;
+	text-decoration: underline;
+}
+
 #myphoto{
 	height: 300px;
 	width: 300px;
@@ -78,5 +83,25 @@ footer{
 	padding: 10px;
 	margin-top: 4px;
 	text-align: center;
+	border-style: solid;
+}
+
+#aboutme1{
+	height: 375px;
+	display: flex;
+	width: 800px;
+	margin-left: 50px;
+	border-bottom: solid;
+
+}
+
+#martialartsphoto{
+	height: 300px;
+	width: 250px;
+	display: flex;
+	float: right;
+	margin-left: 50px;
+	/* margin-right: -40px; */
+	margin-top: 20px;
 	border-style: solid;
 }
