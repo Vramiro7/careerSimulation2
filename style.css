@@ -112,7 +112,7 @@ footer{
 #aboutme2{
 	display: flex;
 	width: 800px;
-	height: 275px;
+	height: 300px;
 	margin-left: 50px;
 	flex-direction: row-reverse;
 	margin-right: 100px;
@@ -128,7 +128,8 @@ footer{
 	margin-left: 50px;
 	margin-top: 20px;
 	margin-right: 50px;
-	padding-right: 80px;
+	padding-right: 70px;
+	border-style: solid;
 }
 
 #aboutme3 {
@@ -136,18 +137,39 @@ footer{
 	width: 800px;
 	height: 275px;
 	margin-left: 50px;
-	flex-direction: row-reverse;
+	flex-direction: row;
 	margin-right: 100px;
 	border-style: solid;
+	margin-bottom: 10px;
 }
 
 #teacherphoto{
 	height: 200px;
 	width: 230px;
 	display: flex;
-	flex-direction: row;
+	flex-direction: row-reverse;
 	margin-left: 50px;
 	margin-top: 20px;
 	margin-right: 50px;
-	padding-right: 80px; 
+	float: right;
+	border-style: solid;
 }
+
+section > p {
+	margin-top: 20px;
+}
+
+.leftText{
+	margin-left: 40px;
+	margin-top: 30px;
+}
+
+.rightText{
+	margin-right: 40px;
+}
+
+/* #aboutTopLayer1{
+	background-color: tan;
+	margin-top: 2px;
+	width: 300px;
+} */
