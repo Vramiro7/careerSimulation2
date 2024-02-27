@@ -95,7 +95,6 @@ footer{
 	margin-left: 50px;
 	border-bottom: solid;
 	border-style: solid;
-
 }
 
 #martialartsphoto{
@@ -170,15 +169,17 @@ section > p {
 
 .projectcontainer{
 	display: flex;
+	height: 300px;
+	justify-content: center;
 }
 
 .projectPhoto{
-	height: 200px;
-	width: 200px;
+	height: 250px;
+	width: 250px;
 	display: flex;
 	flex-direction: row-reverse;
 	margin-left: 50px;
-	margin-top: 20px;
+	margin-top: 10px;
 	margin-right: 50px;
 	margin-bottom: 200px;
 	float: right;
@@ -194,4 +195,9 @@ section > p {
 	margin-right: 100px;
 	border-style: solid;
 	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.aboutcontainer{
+	justify-content: center;
 }
