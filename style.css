@@ -1,3 +1,82 @@
 body{
 	background-color: slategrey;
 }
+
+h1{
+	text-align: center;
+	position: static;
+	background-color: black;
+	color: salmon;
+	padding: 10px;
+	margin: 1px;
+	border-style: solid;
+	border-color: black;
+}
+
+#myphoto{
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	display: flex;
+}
+
+#photocontainer{
+	display: flex;
+	float: right;
+	margin-right: 30px;
+	margin-top: 55px;
+	border-style: solid;
+	border-radius: 50%;
+}
+
+li{
+	display: inline;
+	text-align: center;
+}
+
+#navbar{
+	background-color: green;
+	text-align: right;
+	padding-top: 3px;
+	border-style: solid;
+}
+
+a{
+	display: inline-block;
+	padding: 8px;
+	background-color: green;
+	margin-top: -10px;
+}
+
+ul{
+	padding-bottom: 5px;
+}
+
+#homepagetext{
+	display: flex;
+	width: 300px;
+	border-style: solid;
+	float: left;
+	margin-left: 20px;
+	margin-top: 40px;
+}
+
+#centerborder {
+	border-right: 10px;
+	border-style: solid;
+}
+
+#toplayer {
+	background-color: tan;
+	height: 600px;
+	margin-top: 2px;
+	border-style: solid;
+}
+
+footer{
+	background-color: green;
+	padding: 10px;
+	margin-top: 4px;
+	text-align: center;
+	border-style: solid;
+}
