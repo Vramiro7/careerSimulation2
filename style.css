@@ -16,6 +16,8 @@ h1{
 h2{
 	text-align: center;
 	text-decoration: underline;
+	background-color: black;
+	color: salmon;
 }
 
 #myphoto{
@@ -92,6 +94,7 @@ footer{
 	width: 800px;
 	margin-left: 50px;
 	border-bottom: solid;
+	border-style: solid;
 
 }
 
@@ -101,7 +104,50 @@ footer{
 	display: flex;
 	float: right;
 	margin-left: 50px;
-	/* margin-right: -40px; */
 	margin-top: 20px;
 	border-style: solid;
+	margin-right: 30px;
+}
+
+#aboutme2{
+	display: flex;
+	width: 800px;
+	height: 275px;
+	margin-left: 50px;
+	flex-direction: row-reverse;
+	margin-right: 100px;
+	border-style: solid;
+
+}
+
+#gamephoto{
+	height: 200px;
+	width: 230px;
+	display: flex;
+	flex-direction: row;
+	margin-left: 50px;
+	margin-top: 20px;
+	margin-right: 50px;
+	padding-right: 80px;
+}
+
+#aboutme3 {
+	display: flex;
+	width: 800px;
+	height: 275px;
+	margin-left: 50px;
+	flex-direction: row-reverse;
+	margin-right: 100px;
+	border-style: solid;
+}
+
+#teacherphoto{
+	height: 200px;
+	width: 230px;
+	display: flex;
+	flex-direction: row;
+	margin-left: 50px;
+	margin-top: 20px;
+	margin-right: 50px;
+	padding-right: 80px; 
 }
