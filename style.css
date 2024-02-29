@@ -247,8 +247,12 @@ li > a:hover {
 	padding-top: 6pc;
 }
 
-@media  screen  and (max-width: 600px) {
-	body{
-		background-color: white;
+@media only screen and (max-width: 600px) {
+	#myphoto {
+  	display: none;
+  }
+
+	#toplayer{
+		background-color: violet;
 	}
 }
